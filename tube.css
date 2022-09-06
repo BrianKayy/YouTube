@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.my-bar{
+    padding-left: 25px;
+    margin-top: 20px;
+}
+
+.my-bar .fa-bars{
+    font-size: 20px;
+    color: #555;
+    cursor: pointer;
+}
+
+
+.nav-bar{
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  margin-top: 30px;
+}
+
+.nav-bar img{
+    width: 35px;
+    height: 25px;
+}
+
+
+.nav-bar .icon h6{
+    font-size: 15px;
+    font-weight: 400;
+
+    margin-left: 35px;
+}
+
+
+.nav-bar hr{
+      margin-top: 15px;
+      color: rgb(208, 195, 195);
+
+}
+
+.nav-bar .icon{
+    align-content: center;
+    align-items: center;
+
+    width: 220px;
+    height: 40px;
+    display: flex;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+.nav-bar .icon:hover{
+    background: rgb(243, 241, 241);
+}
+
+
+.nav-bar h3{
+    padding: 10px;
+    color: #555;
+    font-size: 17px;
+}
+
+
+.nav-bar .footer {
+    flex-wrap: wrap;
+    text-overflow: ellipsis;
+    
+}
+
+.nav-bar .footer .footer-2{
+    margin-top: 8px;
+    text-align: center;
+}
+
+
+.nav-bar  .footer .footer-2 a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #555;
+}
+/*------ scroll bar-------*/
+::-webkit-scrollbar{
+    visibility: hidden;
+    width: 10px;
+}
+
+    ::-webkit-scrollbar-track:hover{
+    background: #f1f1f1; 
+  }
+    ::-webkit-scrollbar-thumb:hover{
+    background: #888; 
+      border-radius:10px;
+  }
+  
+/*------- Horizontal bar--------*/
+
+.logos{
+    display: inline-flex;
+}
+ .logo img{
+          margin-left: 13px;
+         width: 100px;
+         height: 30px;
+         margin-top: 15PX;
+}
+
+.horizontal-nav{
+    display: inline-flex;
+    position: fixed;
+    margin-top: 15px;
+    left: 200px;
+}
+
+.horizontal-nav .search{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 0;
+    display: inline-flex;
+    margin-left: 300px;
+}
+
+.horizontal-nav .search .search-bar:hover{
+    align-items: center;
+    align-content: center;
+    padding-top: 0;
+    width: 550px;
+    height: 40px;
+    border: 1px solid rgb(10, 15, 162);
+}
+
+.horizontal-nav .search .search-bar .input{
+    margin-left: 28px;
+    height: 38px;
+    width: 480px;
+    outline: none;
+    border-color: rgb(206, 206, 206);
+    font-size: 17px;
+    font-weight: 500;
+}
+.horizontal-nav .search .search-bar .input:hover{
+                 border: none;
+} 
+
+.horizontal-nav .search .search-bar #glass-1{
+    color: #888;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 21px;
+}
+
+.horizontal-nav .search #search{
+     height: 40px;
+     width: 60px;
+     border: rgb(124, 123, 123);
+     color: #777;
+     font-size: 17px;
+}
+
+.horizontal-nav .search .microphone{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    width: 36px;
+    height: 36px;
+    background-color: rgb(231, 225, 225);
+    border-radius: 50%;
+    font-size: 17px;
+}
+
+.horizontal-nav .last-ones{
+    margin-left: 350px;
+    margin-top: 1px;
+    font-size: 23px;
+    color: #555;
+    display: inline-flex;
+}
+
+.horizontal-nav .last-ones .fa-bell{
+    margin-left: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.horizontal-nav .last-ones .fa-plus{
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.horizontal-nav .last-ones .account{
+    margin-left: 50px;
+}
+
+.horizontal-nav .last-ones .account img{
+         width: 40px;
+         height: 40px;
+         border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
